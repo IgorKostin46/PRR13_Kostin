@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PRR13_Kostin.MainPage">
+
+    <StackLayout>
+        <Label x:Name="label1" Text="Жми на меня" HorizontalOptions="Center" FontSize="Large" TextColor="DarkSlateBlue" Margin="20"/>
+        <Button Clicked="OnButtonClicked" Text="Вычислить факториал числа" BackgroundColor="DarkSlateBlue" TextColor="Aqua"/>
+        <Entry x:Name="keyboard" Placeholder="Введите число" Keyboard="Numeric"/>
+        <Label x:Name="label2" Text="" HorizontalOptions="Center" FontSize="Medium"/>
+    </StackLayout>
+
+</ContentPage>
